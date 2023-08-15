@@ -21,7 +21,7 @@ def livescore():
 
 
 def show1():
-    mysqldb=mysql.connector.connect(host='localhost',user='root',password='ruwayed03',database='cricket')
+    mysqldb=mysql.connector.connect(host='localhost',user='root',password='1234',database='cricket')
     mycursor=mysqldb.cursor()
     mycursor.execute("SELECT Teams,Played,Wins,Lost,NRR,Points FROM group3")
     records=mycursor.fetchall()
